@@ -1,6 +1,6 @@
-# 👋 Hi, I'm Abdul Malik
-
 <div align="center">
+
+<h1>👋 Hi, I'm Abdul Malik</h1>
 
 ### Final-Year Computer Science Student | AI & Backend Developer | Machine Learning Enthusiast
 
@@ -137,7 +137,7 @@ Research-based projects involving
 
 # 📫 Connect With Me
 
-📧 Email: YOUR_EMAIL
+📧 Email: abdulmalik256786@gmail.com
 
 💼 LinkedIn: https://www.linkedin.com/in/abdulmalik812/
 

@@ -1195,6 +1195,66 @@ main {
 
 .form-title { margin-bottom: 20px; }
 
+.contact-quote-section {
+  margin-top: 30px;
+  padding: 20px;
+  background: var(--eerie-black-2);
+  border: 1px solid var(--jet);
+  border-radius: 16px;
+  text-align: center;
+}
+
+.footer-quote {
+  position: relative;
+  margin-bottom: 20px;
+  padding: 24px;
+  overflow: hidden;
+  background: var(--eerie-black-1);
+  border: 1px solid var(--jet);
+  border-radius: 14px;
+  text-align: left;
+}
+
+.footer-quote::before {
+  content: "“";
+  position: absolute;
+  top: 38px;
+  left: 16px;
+  color: var(--orange-yellow-crayola);
+  font-size: 64px;
+  line-height: 0.5;
+  opacity: 0.2;
+}
+
+.footer-quote blockquote {
+  position: relative;
+  color: var(--light-gray);
+  font-size: var(--fs-5);
+  font-style: italic;
+  line-height: 1.7;
+}
+
+.footer-quote figcaption {
+  margin-top: 16px;
+  color: var(--white-2);
+  font-size: var(--fs-6);
+  font-weight: var(--fw-500);
+  text-align: right;
+}
+
+.footer-credit {
+  color: var(--light-gray);
+  font-size: var(--fs-6);
+}
+
+.footer-credit strong { color: var(--orange-yellow-crayola); }
+
+.footer-copyright {
+  margin-top: 5px;
+  color: var(--light-gray-70);
+  font-size: var(--fs-7);
+}
+
 .input-wrapper {
   display: grid;
   grid-template-columns: 1fr;

@@ -10,7 +10,7 @@
   <!--
     - favicon
   -->
-  <link rel="" href="./assets/images/logo.ico" type="image/x-icon">
+  <link rel="icon" href="./assets/images/logo.ico" type="image/x-icon">
 
   <!--
     - custom css link
@@ -127,7 +127,7 @@
             </a>
           </li>
           <li class="social-item">
-            <a href="www.youtube.com/@AbdulMalik-r8r" class="social-link">
+            <a href="https://www.youtube.com/@AbdulMalik-r8r" class="social-link" target="_blank" rel="noopener noreferrer" aria-label="YouTube">
               <ion-icon name="logo-youtube"></ion-icon>
             </a>
           </li>
@@ -165,14 +165,14 @@
           </li>
 
           <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Portfolio</button>
+            <button class="navbar-link" data-nav-link>Projects</button>
           </li>
 
           <li class="navbar-item">
             <button class="navbar-link" data-nav-link>Blog</button>
           </li>
           <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Publications</button>
+            <button class="navbar-link" data-nav-link>Contact</button>
           </li>
 
         
@@ -197,8 +197,7 @@
 
         <section class="about-text">
           <p>
-            "I'm Abdul Malik, a final-year B.Tech Computer Science student from India with a strong interest in Artificial Intelligence, Machine Learning, Generative AI, and Backend Engineering. I enjoy building AI-powered applications, training machine learning models, and solving real-world problems through scalable, data-driven solutions."
-
+            I'm Abdul Malik, a final-year B.Tech Computer Science student from India with a strong interest in Artificial Intelligence, Machine Learning, Generative AI, and Backend Engineering. I enjoy building AI-powered applications, training machine learning models, and solving real-world problems through scalable, data-driven solutions.
           </p>
 
           <p>
@@ -276,7 +275,7 @@
                 <h4 class="h4 service-item-title">Data Scientist</h4>
 
                 <p class="service-item-text">
-                  Created the cutting-edge RapidFuzz algorithm for clustering 697,620 medicines.
+                  Applied RapidFuzz to cluster and match records across a dataset of 697,620 medicines.
                 </p>
               </div>
 
@@ -327,7 +326,7 @@
 
                 <div class="testimonials-text" data-testimonials-text>
                   <p>
-                    Abdul is a highly skilled and dedicated professional. His expertise in machine learning and data science consistently impressed our team. His ability to tackle complex problems and deliver innovative solutions was invaluable to our projects. Ayush's contributions were always thoughtful, well-researched, and impactful.<br>
+                    Abdul is a highly skilled and dedicated professional. His expertise in machine learning and data science consistently impressed our team. His ability to tackle complex problems and deliver innovative solutions was invaluable to our projects. His contributions were always thoughtful, well-researched, and impactful.<br>
                     — Assistant Professor, CSE department at Integral University
                   </p>
                 </div>
@@ -339,7 +338,7 @@
               <div class="content-card" data-testimonials-item>
 
                 <figure class="testimonials-avatar-box">
-                  <img style="border-radius: 20%;" src="./assets/images/zaid.jpeg" alt="Emily evans" width="60" data-testimonials-avatar>
+                  <img style="border-radius: 20%;" src="./assets/images/zaid.jpeg" alt="Mohd Zaid" width="60" data-testimonials-avatar>
                 </figure>
 
                 <h4 class="h4 testimonials-item-title" data-testimonials-title>Mohd Zaid</h4>
@@ -517,7 +516,10 @@
 
             <li class="timeline-item">
 
-              <h4 class="h4 timeline-item-title">Integral University<span style="float: right; font-weight: normal;">Bachelors of Technology</h4>
+              <h4 class="h4 timeline-item-title">
+                Integral University
+                <span style="float: right; font-weight: normal;">Bachelors of Technology</span>
+              </h4>
 
               <span>2023 — 2027</span>
 
@@ -529,7 +531,10 @@
 
             <li class="timeline-item">
 
-              <h4 class="h4 timeline-item-title">Christ Church College<span style="float: right; font-weight: normal;">High School</h4>
+              <h4 class="h4 timeline-item-title">
+                Christ Church College
+                <span style="float: right; font-weight: normal;">High School</span>
+              </h4>
 
               <span>2019 — 2022</span>
 
@@ -568,7 +573,7 @@
 
               <div class="title-wrapper">
                 <h5 class="h5">Natural Language Processing</h5>
-                <data value="70">85%</data>
+                <data value="85">85%</data>
               </div>
 
               <div class="skill-progress-bg">
@@ -581,7 +586,7 @@
 
               <div class="title-wrapper">
                 <h5 class="h5">Deep Learning</h5>
-                <data value="90">75%</data>
+                <data value="75">75%</data>
               </div>
 
               <div class="skill-progress-bg">
@@ -594,7 +599,7 @@
 
               <div class="title-wrapper">
                 <h5 class="h5">Robotics And IoT</h5>
-                <data value="50">70%</data>
+                <data value="70">70%</data>
               </div>
 
               <div class="skill-progress-bg">
@@ -629,15 +634,21 @@
         - #PORTFOLIO
       -->
 
-      <article class="portfolio" data-page="portfolio">
+      <article class="portfolio" data-page="projects">
 
         <header>
-          <h2 class="h2 article-title">Portfolio</h2>
+          <h2 class="h2 article-title">Projects</h2>
         </header>
 
         <section class="projects">
 
           <ul class="filter-list">
+            <li class="filter-item"><button class="active" data-filter-btn>All</button></li>
+            <li class="filter-item"><button data-filter-btn>Machine Learning</button></li>
+            <li class="filter-item"><button data-filter-btn>Natural Language Processing</button></li>
+            <li class="filter-item"><button data-filter-btn>Data Science</button></li>
+            <li class="filter-item"><button data-filter-btn>Blockchain</button></li>
+            <li class="filter-item"><button data-filter-btn>Web Development</button></li>
 
 
 
@@ -647,7 +658,7 @@
 
             <button class="filter-select" data-select>
 
-              <div class="select-value" data-selecct-value>Select category</div>
+              <div class="select-value" data-selecct-value>All</div>
 
               <div class="select-icon">
                 <ion-icon name="chevron-down"></ion-icon>
@@ -656,6 +667,12 @@
             </button>
 
             <ul class="select-list">
+              <li class="select-item"><button data-select-item>All</button></li>
+              <li class="select-item"><button data-select-item>Machine Learning</button></li>
+              <li class="select-item"><button data-select-item>Natural Language Processing</button></li>
+              <li class="select-item"><button data-select-item>Data Science</button></li>
+              <li class="select-item"><button data-select-item>Blockchain</button></li>
+              <li class="select-item"><button data-select-item>Web Development</button></li>
 
               
 
@@ -664,8 +681,8 @@
           </div>
 
           <ul class="project-list">
-            <li class="project-item  active" data-filter-item data-category="web design">
-              <a href="https://github.com/Ayush-Sharma410/MediGlot">
+            <li class="project-item  active" data-filter-item data-category="natural language processing">
+              <a href="https://github.com/abdulmalik812">
 
                 <figure class="project-img">
                   <div class="project-item-icon-box">
@@ -683,8 +700,8 @@
             </li>
             
 
-            <li class="project-item  active" data-filter-item data-category="web development">
-              <a href="https://github.com/Ayush-Sharma410/Parkinsons-Detection">
+            <li class="project-item  active" data-filter-item data-category="machine learning">
+              <a href="https://github.com/abdulmalik812">
 
                 <figure class="project-img">
                   <div class="project-item-icon-box">
@@ -701,8 +718,8 @@
               </a>
             </li>
 
-            <li class="project-item  active" data-filter-item data-category="web design">
-              <a href="https://github.com/Ayush-Sharma410/NLP">
+            <li class="project-item  active" data-filter-item data-category="data science">
+              <a href="https://github.com/abdulmalik812">
 
                 <figure class="project-img">
                   <div class="project-item-icon-box">
@@ -719,8 +736,8 @@
               </a>
             </li>
 
-            <li class="project-item  active" data-filter-item data-category="applications">
-              <a href="https://github.com/Ayush-Sharma410/customs_export?tab=readme-ov-file">
+            <li class="project-item  active" data-filter-item data-category="blockchain">
+              <a href="https://github.com/abdulmalik812">
 
                 <figure class="project-img">
                   <div class="project-item-icon-box">
@@ -738,8 +755,8 @@
             </li>
 
 
-            <li class="project-item  active" data-filter-item data-category="Machine Learning">
-              <a href="https://github.com/Ayush-Sharma410/Maternal-Mortality">
+            <li class="project-item  active" data-filter-item data-category="machine learning">
+              <a href="https://github.com/abdulmalik812">
 
                 <figure class="project-img">
                   <div class="project-item-icon-box">
@@ -755,8 +772,8 @@
 
               </a>
             </li>
-            <li class="project-item  active" data-filter-item data-category="web design">
-              <a href="https://github.com/Ayush-Sharma410/Medicine-Data-Extraction">
+            <li class="project-item  active" data-filter-item data-category="data science">
+              <a href="https://github.com/abdulmalik812">
 
                 <figure class="project-img">
                   <div class="project-item-icon-box">
@@ -773,8 +790,8 @@
               </a>
             </li>
 
-            <li class="project-item  active" data-filter-item data-category="web development">
-              <a href="https://github.com/Ayush-Sharma410/Emotion_Face_Recognition">
+            <li class="project-item  active" data-filter-item data-category="machine learning">
+              <a href="https://github.com/abdulmalik812">
 
                 <figure class="project-img">
                   <div class="project-item-icon-box">
@@ -792,7 +809,49 @@
             </li>
 
             
-          </ul>
+                      <li class="project-item active" data-filter-item data-category="machine learning">
+              <a href="https://github.com/abdulmalik812/Scanvidence" target="_blank" rel="noopener noreferrer">
+                <figure class="project-img">
+                  <div class="project-item-icon-box"><ion-icon name="eye-outline"></ion-icon></div>
+                  <img src="./assets/images/parkinsons.webp" alt="Medical imaging AI project preview" loading="lazy">
+                </figure>
+                <h3 class="project-title">Scanvidence - Explainable Medical Imaging AI</h3>
+                <p class="project-category">AI/ML · PyTorch · FastAPI · Streamlit</p>
+              </a>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="web development">
+              <a href="https://te-dx-iul.vercel.app/" target="_blank" rel="noopener noreferrer">
+                <figure class="project-img">
+                  <div class="project-item-icon-box"><ion-icon name="eye-outline"></ion-icon></div>
+                  <img src="./assets/images/project-1.jpg" alt="TEDx Integral University event website" loading="lazy">
+                </figure>
+                <h3 class="project-title">TEDxIntegralUniversity 2026 - Official Event Website</h3>
+                <p class="project-category">Next.js · React · SVG/CSS Animation</p>
+              </a>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="natural language processing">
+              <a href="https://github.com/abdulmalik812/Ask-My-Docs" target="_blank" rel="noopener noreferrer">
+                <figure class="project-img">
+                  <div class="project-item-icon-box"><ion-icon name="eye-outline"></ion-icon></div>
+                  <img src="./assets/images/Screenshot 2024-06-17 123318.png" alt="Ask My Docs document question-answering project" loading="lazy">
+                </figure>
+                <h3 class="project-title">Ask My Docs - AI-Powered Document Q&amp;A</h3>
+                <p class="project-category">Hybrid RAG · Gemini · ChromaDB · Ragas</p>
+              </a>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="machine learning">
+              <a href="https://github.com/abdulmalik812/IMNCI-AI-Assistant" target="_blank" rel="noopener noreferrer">
+                <figure class="project-img">
+                  <div class="project-item-icon-box"><ion-icon name="eye-outline"></ion-icon></div>
+                  <img src="./assets/images/mediglot.png" alt="IMNCI AI healthcare assistant project" loading="lazy">
+                </figure>
+                <h3 class="project-title">IMNCI-AI-Assistant</h3>
+                <p class="project-category">Voice-Assisted Healthcare · NLP · Streamlit</p>
+              </a>
+            </li></ul>
 
         </section>
 
@@ -816,7 +875,7 @@
 
           <ul class="blog-posts-list">
             <li class="blog-post-item">
-              <a href="https://medium.com/@ayushsharma2267410/week-8-9-of-gsoc-2024-medicine-embeddings-with-polyphy-polyglot-780de1c03e9f">
+              <a href="https://medium.com/@abdulmalik256786">
 
                 <figure class="blog-banner-box">
                   <img src="./assets/images/t-SNE.webp" alt="Best fonts every designer" loading="lazy">
@@ -844,7 +903,7 @@
               </a>
             </li>
             <li class="blog-post-item">
-              <a href="https://medium.com/@ayushsharma2267410/week-6-7-of-gsoc-2024-medicine-embeddings-with-polyphy-polyglot-113c44f022af">
+              <a href="https://medium.com/@abdulmalik256786">
 
                 <figure class="blog-banner-box">
                   <img src="./assets/images/week 6.webp" alt="Best fonts every designer" loading="lazy">
@@ -872,7 +931,7 @@
               </a>
             </li>
             <li class="blog-post-item">
-              <a href="https://medium.com/@ayushsharma2267410/week-3-4-5-of-gsoc-2024-medicine-embeddings-with-polyphy-polyglot-bae5332f14ee">
+              <a href="https://medium.com/@abdulmalik256786">
 
                 <figure class="blog-banner-box">
                   <img src="./assets/images/week3.webp" alt="Best fonts every designer" loading="lazy">
@@ -900,7 +959,7 @@
               </a>
             </li>
             <li class="blog-post-item">
-              <a href="https://medium.com/@ayushsharma2267410/week-1-2-of-gsoc-2024-medicine-embeddings-with-polyphy-polyglot-7be94bf6e2c5">
+              <a href="https://medium.com/@abdulmalik256786">
 
                 <figure class="blog-banner-box">
                   <img src="./assets/images/polyglot.webp" alt="Best fonts every designer" loading="lazy">
@@ -928,7 +987,7 @@
               </a>
             </li>
             <li class="blog-post-item">
-              <a href="https://medium.com/@ayushsharma2267410/how-i-cracked-an-nlp-project-in-gsoc-2024-building-custom-embeddings-for-polyphy-5d3128a20fb9">
+              <a href="https://medium.com/@abdulmalik256786">
 
                 <figure class="blog-banner-box">
                   <img src="./assets/images/google.webp" alt="Best fonts every designer" loading="lazy">
@@ -956,7 +1015,7 @@
               </a>
             </li>
             <li class="blog-post-item">
-              <a href="https://medium.com/@ayushsharma2267410/installation-of-cloudforet-in-windows-8c4a10c9a65f">
+              <a href="https://medium.com/@abdulmalik256786">
             
                 <figure class="blog-banner-box">
                   <img src="./assets/images/cloudforet.webp" alt="Design conferences in 2022" loading="lazy">
@@ -990,58 +1049,24 @@
 
       </article>
 
-      <article class="publications" data-page="publications">
-
-        <header>
-          <h2 class="h2 article-title">Publications</h2>
-        </header>
-
-        <section class="blog-posts">
-
-          <ul class="blog-posts-list">
-            <li class="blog-post-item">
-              <a href="https://link.springer.com/chapter/10.1007/978-981-99-6550-2_42">
-
-                <figure class="blog-banner-box">
-                  <img src="./assets/images/Screenshot 2024-06-17 123943.png" alt="blockchain" loading="lazy">
-                </figure>
-
-                <div class="blog-content">
-
-                  <div class="blog-meta">
-                    <p class="blog-category">(ICDAM 2023)</p>
-
-                    <span class="dot"></span>
-
-                    <time datetime="2022-02-23">Nov 28, 2023</time>
-                  </div>
-                  <h3 class="h3 blog-item-title">
-                    A Blockchain-Based Custom Clearance Solution for International Trade Using IPFS and Non-fungible Tokens
-                  </h3>
-
-                  <p class="blog-text">
-                    
-                  </p>
-
-                </div>
-
-              </a>
-            </li>
-
-            
 
 
 
-            
 
-          </ul>
-
+      <article class="contact" data-page="contact">
+        <header><h2 class="h2 article-title">Contact</h2></header>
+        <section class="contact-form">
+          <h3 class="h3 form-title">Send me a message</h3>
+          <form data-form>
+            <div class="input-wrapper">
+              <input type="text" name="name" class="form-input" placeholder="Full name" required data-form-input>
+              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+            </div>
+            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+            <button class="form-btn" type="submit" data-form-btn><ion-icon name="paper-plane"></ion-icon><span>Open email app</span></button>
+          </form>
         </section>
-
       </article>
-
-
-
     </div>
 
   </main>

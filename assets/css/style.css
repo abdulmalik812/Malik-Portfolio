@@ -403,6 +403,26 @@ main {
   gap: 16px;
 }
 
+.resume-contact-item { min-width: 0; }
+
+.resume-contact-button {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  width: 100%;
+  padding: 8px;
+  border: 1px solid var(--jet);
+  border-radius: 12px;
+  background: var(--eerie-black-2);
+  color: var(--white-2);
+  font-size: var(--fs-7);
+  transition: var(--transition-1);
+}
+
+.resume-contact-button:disabled { opacity: 1; cursor: default; }
+
+.resume-contact-button .icon-box { flex: 0 0 30px; }
+
 .contact-item {
   min-width: 100%;
   display: flex;
@@ -1599,6 +1619,8 @@ textarea.form-input::-webkit-resizer { display: none; }
     grid-template-columns: 1fr 1fr;
     gap: 30px 15px;
   }
+
+  .contacts-list .contact-item:first-child { grid-column: 1 / -1; }
 
 
 
